@@ -1,4 +1,4 @@
-<![Headerimage](./charts%20and%20images/Image1.jpg)
+<![Headerimage](./Charts%20%26%20Images/Image1.jpg)
 
 # Phase 2 Project - Analysis of House Sales in King County, WA
 
