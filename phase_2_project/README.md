@@ -1,8 +1,11 @@
-<![Headerimage](./Charts%20%26%20Images/house.gif)
+<![Headerimage](./Charts%20%26%20Images/Image1.jpg)
 
-# DSC Phase 2 Project - Analysis of House Sales in King County, WA
+# Analysis of House Sales in King County, WA
 
-**Authors:** Group 17 - Caroline Mbugua, Diana Wangura, Mark Kuria, Rhoda Musyoki, Alice Jebiwott, Mlati Ochieng
+DSC Phase 2 Project
+
+**Authors:** 
+Group 17 - Caroline Mbugua, Diana Wangura, Mark Kuria, Rhoda Musyoki, Alice Jebiwott, Mlati Ochieng
 
 ## Overview
 
@@ -23,6 +26,8 @@ A multiple linear regression model was designed using selected features such as 
 
 OLS method was utilized to fit the model. This technique is standard in linear regression and works by minimizing the sum of the squared differences between observed and predicted values.
 
+<![AvP](./Charts%20%26%20Images/Actual vs Predicted Prices.png)
+
 Model Output Analysis:
 
 - R-squared: The model achieved an R-squared value of 0.65. This means that 65% of the variation in house prices could be explained by the model’s independent variables.
@@ -34,9 +39,11 @@ Model Output Analysis:
 The coefficients offered insights into how much each feature would, on average, impact the house price, holding other variables constant.
 The intercept term in the model provided a baseline house price when all predictors are at zero.
 
-Diagnostics like the Durbin-Watson statistic for checking autocorrelation in residuals and tests like the Jarque-Bera for assessing the normality of residuals, were part of the model summary.
+Residuals were calculated as the difference between actual and predicted values and analyzed using scatter plots and histograms to check for any patterns or biases. A QQ plot was also used to test the normality of residuals.
 
-The model's condition number indicated the presence or absence of multicollinearity, which affects the reliability of the coefficient estimates.
+<![Residualsplot](./Charts%20%26%20Images/Residuals.png)
+
+
 
 ## Regression Results
 
